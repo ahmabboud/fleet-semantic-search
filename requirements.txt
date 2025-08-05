@@ -1,7 +1,9 @@
 sqlite3
 # Core LangChain and Vector Database
-langchain>=0.3.27
-langchain-core>=0.3.72
+# langchain>=0.3.27
+langchain
+# langchain-core>=0.3.72
+langchain-core
 # langchain-chroma>=0.2.5
 langchain-chroma
 # chromadb>=1.0.15
@@ -19,8 +21,8 @@ openpyxl>=3.1.5
 python-dotenv>=1.1.0
 
 # Web Application
-streamlit>=1.47.1
-
+# streamlit>=1.47.1
+streamlit
 # HTTP and Networking (fix for urllib3 issues)
 urllib3>=1.26.0,<2.0.0
 requests>=2.32.3
