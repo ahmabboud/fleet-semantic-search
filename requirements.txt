@@ -1,4 +1,4 @@
-sqlite3
+
 # Core LangChain and Vector Database
 # langchain>=0.3.27
 langchain
@@ -9,7 +9,8 @@ langchain-chroma
 # chromadb>=1.0.15
 chromadb
 langchain-openai>=0.3.28
-langchain-community>=0.3.27
+# langchain-community>=0.3.27
+langchain-community
 langchain-text-splitters>=0.3.9
 
 # Data Processing
