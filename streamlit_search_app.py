@@ -14,6 +14,10 @@ from datetime import datetime
 import json
 import re
 
+# testing SQLite connection
+import sqlite3
+###
+print("SQLite version in use:", sqlite3.sqlite_version)
 # Load environment variables
 load_dotenv()
 
