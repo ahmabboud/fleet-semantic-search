@@ -1,0 +1,38 @@
+# Core LangChain and Vector Database
+langchain>=0.3.27
+langchain-core>=0.3.72
+langchain-chroma>=0.2.5
+chromadb>=1.0.15
+langchain-openai>=0.3.28
+langchain-community>=0.3.27
+langchain-text-splitters>=0.3.9
+
+# Data Processing
+pandas>=2.2.3
+numpy>=2.2.0
+openpyxl>=3.1.5
+
+# Environment and Configuration
+python-dotenv>=1.1.0
+
+# Web Application
+streamlit>=1.47.1
+
+# HTTP and Networking (fix for urllib3 issues)
+urllib3>=1.26.0,<2.0.0
+requests>=2.32.3
+
+# AI/ML Dependencies
+sentence-transformers>=5.0.0
+transformers>=4.50.3
+torch>=2.6.0
+openai>=1.99.0
+tiktoken>=0.9.0
+
+# Additional Dependencies
+pydantic>=2.11.7
+SQLAlchemy>=2.0.42
+PyYAML>=6.0.2
+tenacity>=9.1.2
+jsonschema>=4.25.0
+typing-extensions>=4.12.2
