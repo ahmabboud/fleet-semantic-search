@@ -1,37 +1,23 @@
-pysqlite3-binary
 # Core LangChain and Vector Database
-# langchain>=0.3.27
-langchain
-# langchain-core>=0.3.72
-langchain-core
-# langchain-chroma>=0.2.5
-langchain-chroma
-# chromadb>=1.0.15
-chromadb
-# langchain-openai>=0.3.28
-langchain-openai
-# langchain-community>=0.3.27
-langchain-community
-# langchain-text-splitters>=0.3.9
-langchain-text-splitters
+langchain>=0.3.27
+langchain-core>=0.3.72
+langchain-chroma>=0.2.5
+chromadb>=1.0.15
+langchain-openai>=0.3.28
+langchain-community>=0.3.27
+langchain-text-splitters>=0.3.9
 
 # Data Processing
-# pandas>=2.2.3
-pandas
-
-# numpy>=2.2.0
-numpy
-
-# openpyxl>=3.1.5
-openpyxl
+pandas>=2.2.3
+numpy>=2.2.0
+openpyxl>=3.1.5
 
 # Environment and Configuration
-# python-dotenv>=1.1.0
-python-dotenv
+python-dotenv>=1.1.0
 
 # Web Application
-# streamlit>=1.47.1
-streamlit
+streamlit>=1.47.1
+
 # HTTP and Networking (fix for urllib3 issues)
 urllib3>=1.26.0,<2.0.0
 requests>=2.32.3
